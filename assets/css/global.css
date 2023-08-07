@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma&family=Ubuntu&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+    text-decoration: none;
+  }
+
+body {
+    background-color:#ffe9f2;
+}
+
+.cabecalho {
+    background-color: rgb(85, 62, 62);  
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    width: 207.2vh;
+    height: 30vh;
+}
+
+.name_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50vh;
+}
+
+
+.name_store {
+    font-family: Karma, sans-serif;
+    font-size: 28px;
+    color: #f43173;
+}
+
+.logo {
+    margin-left: 6vh;
+}
+
+.menu { /*
+    margin-top: 8vh;
+    padding-left: 10vh; */
+
+    width: 60vw;
+    height: 10vh;
+    margin-top: 9vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.home, .cardapio, .sobre {
+    font-family: Karma, sans-serif;
+    font-size: 25px;
+    color: #f43173;
+}
+
+.home:hover, .cardapio:hover, .sobre:hover {
+    color:rgba(0, 0, 0, 0.925);
+    opacity: 0.5;
+    transition: 1ms;    
+}
+
+.rodape {
+    background-color: rgb(85, 62, 62);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+    gap: 10px;
+    padding: 5vh;
+}
+
+h3 {
+    font-family: Karma, sans-serif;
+    font-size: 22px;
+}
+
+.mapa {
+    width: 70vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+}
+
+.localization {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

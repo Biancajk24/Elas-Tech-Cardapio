@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma&family=Ubuntu&display=swap');
+
+.desserts {
+    max-width: 250vh;
+    height: auto;
+    padding: 4vh;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+}
+
+.cakes, .macarons, .donuts, .cupcakes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.img-cake {
+    width: 80vh;
+    height: 60vh;
+    padding: 2vh;
+}
+
+.img-macarons, .img-donuts, .img-cupcake {
+    width: 80vh;
+    height: 80vh;
+    padding: 2vh;
+}
+
+.description_desserts {
+    max-width: 90vh;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-family: Karma, sans-serif;
+    font-size: 22px;
+    margin-bottom: 4vh;
+}
+
+.price {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 750;
+    color: rgb(87, 0, 0);;
+    justify-content: center;
+}
+
+.price:hover, .cardapio:hover, .sobre:hover {
+    color:rgb(2, 2, 2);
+    opacity: 0.5;
+    transition: 1ms; 
+}
+
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+}

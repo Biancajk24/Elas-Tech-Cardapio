@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma&family=Ubuntu&display=swap');
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    font-family: Karma, sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    color: black;
+    padding-top: 5vh;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+    padding-left: 10vh;
+}
+
+.img-macaron {
+    max-width: 150vh;
+    height: 80vh;
+    padding-right: 5vh;
+    padding-bottom: 8vh;
+}
+
+.text_description {
+    flex-direction: column;
+    gap: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    padding: 2vh;
+}
+
