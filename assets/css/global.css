@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content:space-evenly;
     text-align: center;
-    width: 207.2vh;
+    max-width: 250vh;
     height: 30vh;
 }
 
@@ -69,7 +69,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-height: 100vh;
+    max-height: 250vh;
     gap: 10px;
     padding: 5vh;
 }
@@ -80,10 +80,9 @@ h3 {
 }
 
 .mapa {
-    width: 70vw;
+    max-width: 200vh;
     height: auto;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 4%;
